@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Thigk2duquangtrung"
         tools:targetApi="31">
+
+        <activity
+            android:name=".BaiHatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChucNang1Activity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
