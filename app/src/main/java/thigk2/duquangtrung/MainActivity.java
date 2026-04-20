@@ -11,7 +11,7 @@ import androidx.core.view.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1;
+    Button btn1, btn2, btn3, btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +25,26 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // ánh xạ nút
+        // ánh xạ
         btn1 = findViewById(R.id.btn1);
+        btn2 = findViewById(R.id.btn2);
+        btn3 = findViewById(R.id.btn3);
+        btn4 = findViewById(R.id.btn4);
 
-        // chuyển màn hình
+        // chức năng 1
         btn1.setOnClickListener(v ->
                 startActivity(new Intent(this, ChucNang1Activity.class)));
+
+        // chức năng 2
+        btn2.setOnClickListener(v ->
+                startActivity(new Intent(this, BaiHatActivity.class)));
+
+        // chức năng 3
+        btn3.setOnClickListener(v ->
+                startActivity(new Intent(this, DanhNhanActivity.class)));
+
+        // chức năng 4
+        btn4.setOnClickListener(v ->
+                startActivity(new Intent(this, ThongTinActivity.class)));
     }
 }

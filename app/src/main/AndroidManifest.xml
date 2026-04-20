@@ -3,14 +3,15 @@
 
     <application
         android:allowBackup="true"
-        android:label="App"
+        android:label="ThiGK"
         android:theme="@style/Theme.Thigk2duquangtrung">
         <activity
-            android:name=".DanhNhanActivity"
+            android:name=".ThongTinActivity"
             android:exported="false" />
-        <!-- Chức năng 1 -->
-        <activity android:name=".ChucNang1Activity" /> <!-- Chức năng 2 -->
-        <activity android:name=".BaiHatActivity" /> <!-- Main -->
+        <!-- CHỨC NĂNG 1 -->
+        <activity android:name=".ChucNang1Activity" /> <!-- CHỨC NĂNG 2 -->
+        <activity android:name=".BaiHatActivity" /> <!-- CHỨC NĂNG 3 -->
+        <activity android:name=".DanhNhanActivity" /> <!-- MAIN -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
