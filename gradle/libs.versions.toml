@@ -4,9 +4,10 @@ junit = "4.13.2"
 junitVersion = "1.3.0"
 espressoCore = "3.7.0"
 appcompat = "1.7.1"
-material = "1.13.0"
-activity = "1.13.0"
+material = "1.11.0"     # ✅ hạ xuống
+activity = "1.8.0"      # ✅ hạ xuống
 constraintlayout = "2.2.1"
+coreKtx = "1.12.0"      # ✅ thêm
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -19,4 +20,3 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-
