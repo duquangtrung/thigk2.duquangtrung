@@ -6,4 +6,6 @@ bài hát
 <img width="465" height="929" alt="Image" src="https://github.com/user-attachments/assets/18b026ec-fe01-41ef-93df-46e4fcf16b51" />
 doanh nhân
 <img width="475" height="972" alt="image" src="https://github.com/user-attachments/assets/b534eeca-ed2f-4f9a-857b-7a46200e9c35" />
+thông tin sinh viên
+<img width="461" height="962" alt="Image" src="https://github.com/user-attachments/assets/7630ad51-ad1a-4c19-92fb-9fc6bae4cd44" />
 
