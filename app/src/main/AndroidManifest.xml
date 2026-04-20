@@ -5,22 +5,31 @@
         android:allowBackup="true"
         android:label="ThiGK"
         android:theme="@style/Theme.Thigk2duquangtrung">
-        <activity
-            android:name=".ThongTinActivity"
-            android:exported="false" />
-        <!-- CHỨC NĂNG 1 -->
-        <activity android:name=".ChucNang1Activity" /> <!-- CHỨC NĂNG 2 -->
-        <activity android:name=".BaiHatActivity" /> <!-- CHỨC NĂNG 3 -->
-        <activity android:name=".DanhNhanActivity" /> <!-- MAIN -->
+
+        <!-- Chức năng 1 -->
+        <activity android:name=".ChucNang1Activity" />
+
+        <!-- Chức năng 2 -->
+        <activity android:name=".BaiHatActivity" />
+
+        <!-- Chức năng 3 -->
+        <activity android:name=".DanhNhanActivity" />
+
+        <!-- Chức năng 4 -->
+        <activity android:name=".ThongTinActivity" />
+
+        <!-- Màn hình chính -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
     </application>
 
 </manifest>

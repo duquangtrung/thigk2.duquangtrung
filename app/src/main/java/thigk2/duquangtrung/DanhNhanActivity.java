@@ -39,6 +39,9 @@ public class DanhNhanActivity extends AppCompatActivity {
 
         list.add(new DanhNhan("Hồ Chí Minh", "Nghệ An", R.drawable.hcm));
         list.add(new DanhNhan("Võ Nguyên Giáp", "Quảng Bình", R.drawable.giap));
+        list.add(new DanhNhan("Nguyễn Trãi", "Hà Nội", R.drawable.hcm));
+        list.add(new DanhNhan("Trần Hưng Đạo", "Nam Định", R.drawable.giap));
+        list.add(new DanhNhan("Lê Lợi", "Thanh Hóa", R.drawable.hcm));
 
         // gắn adapter
         DanhNhanAdapter adapter = new DanhNhanAdapter(this, list);
